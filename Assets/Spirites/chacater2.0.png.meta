@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 6dad24579cb5eaa4b9be5c5b579810e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7780359217232030377
+    second: chacater2.0_0
+  - first:
+      213: 2650362115649471382
+    second: chacater2.0_1
+  - first:
+      213: -1641490075476068800
+    second: chacater2.0_2
+  - first:
+      213: -2123088388132630868
+    second: chacater2.0_3
+  - first:
+      213: 3995637576282424066
+    second: chacater2.0_4
+  - first:
+      213: -8110799447672070674
+    second: chacater2.0_5
+  - first:
+      213: 531177529575376595
+    second: chacater2.0_6
+  - first:
+      213: 4645066435065020010
+    second: chacater2.0_7
+  - first:
+      213: -2236210998394627267
+    second: chacater2.0_8
+  - first:
+      213: -8011335531852658692
+    second: chacater2.0_9
+  - first:
+      213: 9157807854377483492
+    second: chacater2.0_10
+  - first:
+      213: -7466115235310005609
+    second: chacater2.0_11
+  - first:
+      213: 145830908269048435
+    second: chacater2.0_12
+  - first:
+      213: 8533756915094455817
+    second: chacater2.0_13
+  - first:
+      213: -3392751633149228505
+    second: chacater2.0_14
+  - first:
+      213: -4501546552867349908
+    second: chacater2.0_15
+  - first:
+      213: -7944783731227713180
+    second: chacater2.0_16
+  - first:
+      213: -3716842289627789748
+    second: chacater2.0_17
+  - first:
+      213: -5804338389667236165
+    second: chacater2.0_18
+  - first:
+      213: -1517014533584934964
+    second: chacater2.0_19
+  - first:
+      213: 7975483212057283686
+    second: chacater2.0_20
+  - first:
+      213: -3939109727298788295
+    second: chacater2.0_21
+  - first:
+      213: -8279607075844482459
+    second: chacater2.0_22
+  - first:
+      213: -5729194569053984081
+    second: chacater2.0_23
+  - first:
+      213: -2006613440769592019
+    second: chacater2.0_24
+  - first:
+      213: 379182811842544440
+    second: chacater2.0_25
+  - first:
+      213: 4557957482436315010
+    second: chacater2.0_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chacater2.0_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 266
+        width: 105
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff439b5c9f89264e811f3342a757e34
+      internalID: 306120805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 266
+        width: 100
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3f6479a61ab6e45abcbde02be54992
+      internalID: 894072405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 266
+        width: 116
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c206bbb2e0fba24bbb67072c431b125
+      internalID: -666370050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 266
+        width: 118
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e988419d5421548b079d6718d44b6b
+      internalID: 752664792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7
+        width: 118
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daddccd97212a78409af66c28a3fe6b9
+      internalID: 1543638758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7
+        width: 172
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0039183421f1e4c41b2b59252dcbb51a
+      internalID: 1684903629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 139
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7645e5c9d7d84de4e864b9a44722e527
+      internalID: 1764010996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 131
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97b2172a2c28b04a95fd67e14fbc5cc
+      internalID: -1679684305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_16
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 131
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3759d14d451394942bab77383a33377b
+      internalID: 97171250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_17
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 77
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18134c1b9bc95f1478fcc008fd3d749b
+      internalID: -436215784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 78
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7573d8f6eecf94d87df647aeee3d46
+      internalID: -1645607896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_20
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 70
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6efdf81aebefe459eb4347b9fe5c3a
+      internalID: -1186382333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_21
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 62
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e02ec02a3b4ae943ac578d8f7bc1c31
+      internalID: -870789591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_23
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 62
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178b6a47415dd2a4190a5135cfd7e272
+      internalID: -1602074936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 62
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7b2cca619e3014991b4b6eab99cea7
+      internalID: -77034577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_25
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 62
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b774f749c6153a34b8eac17301aae89f
+      internalID: 895326876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chacater2.0_26
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 54
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84fce478ca1eb749b1e58cc64928319
+      internalID: 1392005791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a3d4f790737882f4ea1f4a956a45f94a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chacater2.0_0: 306120805
+      chacater2.0_1: 894072405
+      chacater2.0_10: 1671879657
+      chacater2.0_11: 1543638758
+      chacater2.0_12: 1684903629
+      chacater2.0_13: 1764010996
+      chacater2.0_14: -1200307317
+      chacater2.0_15: -1679684305
+      chacater2.0_16: 97171250
+      chacater2.0_17: -436215784
+      chacater2.0_18: -1645607896
+      chacater2.0_19: 336579596
+      chacater2.0_2: -666370050
+      chacater2.0_20: -1186382333
+      chacater2.0_21: -870789591
+      chacater2.0_22: 1829332805
+      chacater2.0_23: -1602074936
+      chacater2.0_24: -77034577
+      chacater2.0_25: 895326876
+      chacater2.0_26: 1392005791
+      chacater2.0_3: 752664792
+      chacater2.0_4: 636369365
+      chacater2.0_5: -836805824
+      chacater2.0_6: 599409971
+      chacater2.0_7: -166384105
+      chacater2.0_8: 1450663786
+      chacater2.0_9: -614085019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

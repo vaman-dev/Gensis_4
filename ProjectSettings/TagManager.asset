@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Gate
+  - Enemy
+  - Bullet
+  - EnemyBullet
+  - Coin
+  - Checkpoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Enemy
+  - Bullet
+  - Cave
+  - Confiner
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Particle
+    uniqueID: 106369641
+    locked: 0
+  - name: Player
+    uniqueID: 3694567335
+    locked: 0
+  - name: Stone
+    uniqueID: 1112722057
+    locked: 0
+  - name: Enemy
+    uniqueID: 2178218453
+    locked: 0
+  m_RenderingLayers:
+  - Default

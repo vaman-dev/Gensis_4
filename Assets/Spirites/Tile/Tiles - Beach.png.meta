@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 6c6b8ab776d4ec0489f67e8493954c3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6076413228260066321
+    second: Tiles - Beach_0
+  - first:
+      213: -8760414019104906232
+    second: Tiles - Beach_1
+  - first:
+      213: -199703279752650167
+    second: Tiles - Beach_2
+  - first:
+      213: 126112893798212610
+    second: Tiles - Beach_3
+  - first:
+      213: -1812935463897792892
+    second: Tiles - Beach_4
+  - first:
+      213: 1217951285103974887
+    second: Tiles - Beach_5
+  - first:
+      213: 5991722968487574478
+    second: Tiles - Beach_6
+  - first:
+      213: -7485330713374539600
+    second: Tiles - Beach_7
+  - first:
+      213: 5171094075307388699
+    second: Tiles - Beach_8
+  - first:
+      213: -2034267589234459672
+    second: Tiles - Beach_9
+  - first:
+      213: -5776645988776212839
+    second: Tiles - Beach_10
+  - first:
+      213: -5672851611366820090
+    second: Tiles - Beach_11
+  - first:
+      213: -8447462895979141125
+    second: Tiles - Beach_12
+  - first:
+      213: -7015222922690729522
+    second: Tiles - Beach_13
+  - first:
+      213: -6299026873962501556
+    second: Tiles - Beach_14
+  - first:
+      213: 1920710850903050969
+    second: Tiles - Beach_15
+  - first:
+      213: -2777361850702704493
+    second: Tiles - Beach_16
+  - first:
+      213: -3789852896161181094
+    second: Tiles - Beach_17
+  - first:
+      213: -4381955223976199788
+    second: Tiles - Beach_18
+  - first:
+      213: 695705125589484753
+    second: Tiles - Beach_19
+  - first:
+      213: 7326477714156127939
+    second: Tiles - Beach_20
+  - first:
+      213: -7549394689866668649
+    second: Tiles - Beach_21
+  - first:
+      213: 3859391607920326212
+    second: Tiles - Beach_22
+  - first:
+      213: -424217508041498078
+    second: Tiles - Beach_23
+  - first:
+      213: -3501785509968325481
+    second: Tiles - Beach_24
+  - first:
+      213: 1359486433145782569
+    second: Tiles - Beach_25
+  - first:
+      213: -7769807558063344058
+    second: Tiles - Beach_26
+  - first:
+      213: -1803679260030989609
+    second: Tiles - Beach_27
+  - first:
+      213: -1852717787194792838
+    second: Tiles - Beach_28
+  - first:
+      213: 1553593116331604258
+    second: Tiles - Beach_29
+  - first:
+      213: 7585686975842552183
+    second: Tiles - Beach_30
+  - first:
+      213: 1585872718570275832
+    second: Tiles - Beach_31
+  - first:
+      213: -5384042588902235304
+    second: Tiles - Beach_32
+  - first:
+      213: -8509979987429886121
+    second: Tiles - Beach_33
+  - first:
+      213: -2963002198708394722
+    second: Tiles - Beach_34
+  - first:
+      213: 1828107390948349999
+    second: Tiles - Beach_35
+  - first:
+      213: -5608413390083867163
+    second: Tiles - Beach_36
+  - first:
+      213: -4266386482800803042
+    second: Tiles - Beach_37
+  - first:
+      213: 8865193944008486200
+    second: Tiles - Beach_38
+  - first:
+      213: 2176728494131188817
+    second: Tiles - Beach_39
+  - first:
+      213: 1943240672477623692
+    second: Tiles - Beach_40
+  - first:
+      213: -849138581507702970
+    second: Tiles - Beach_41
+  - first:
+      213: -7048192278951891330
+    second: Tiles - Beach_42
+  - first:
+      213: -4398672909257501504
+    second: Tiles - Beach_43
+  - first:
+      213: -5676658405120023671
+    second: Tiles - Beach_44
+  - first:
+      213: 2147356051025077744
+    second: Tiles - Beach_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tiles - Beach_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 129
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1140dea03a1c35450800000000000000
+      internalID: 6076413228260066321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 565
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80466e14dd1cc6680800000000000000
+      internalID: -8760414019104906232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 567
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942ecd5dce28a3df0800000000000000
+      internalID: -199703279752650167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 565
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204607c320b00c100800000000000000
+      internalID: 126112893798212610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 161
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ef9a90dc827d6e0800000000000000
+      internalID: -1812935463897792892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 526
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e95a56ad3807e010800000000000000
+      internalID: 1217951285103974887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_6
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 523
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb30495b40e62350800000000000000
+      internalID: 5991722968487574478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 528
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b04dfa0063ce1890800000000000000
+      internalID: -7485330713374539600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 491
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fe2d2f9aa63c740800000000000000
+      internalID: 5171094075307388699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 480
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebf695d764d4c3e0800000000000000
+      internalID: -2034267589234459672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 484
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9960fc5441b35dfa0800000000000000
+      internalID: -5776645988776212839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 459
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6077af8f38bf541b0800000000000000
+      internalID: -5672851611366820090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 461
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7eedfa04594ca80800000000000000
+      internalID: -8447462895979141125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 447
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec967d88bebe4ae90800000000000000
+      internalID: -7015222922690729522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 426
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a63da8e6c5598a0800000000000000
+      internalID: -6299026873962501556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 425
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da8050b75cb7aa10800000000000000
+      internalID: 1920710850903050969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 415
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390d424ac14d479d0800000000000000
+      internalID: -2777361850702704493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 415
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52d355dedcb76bc0800000000000000
+      internalID: -3789852896161181094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 390
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4993b3db0fa2033c0800000000000000
+      internalID: -4381955223976199788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 393
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d40e2f2024a7a900800000000000000
+      internalID: 695705125589484753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 383
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c68717e9a0eca560800000000000000
+      internalID: 7326477714156127939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795e64927892b3790800000000000000
+      internalID: -7549394689866668649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 351
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446f63f28305f8530800000000000000
+      internalID: 3859391607920326212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 351
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2226fad8c60ec1af0800000000000000
+      internalID: -424217508041498078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7945ab6c1a8276fc0800000000000000
+      internalID: -3501785509968325481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 308
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9210e9445bdddd210800000000000000
+      internalID: 1359486433145782569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 305
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6463d7031391c2490800000000000000
+      internalID: -7769807558063344058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 297
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da0d11f44b08f6e0800000000000000
+      internalID: -1803679260030989609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 298
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74e4391df2d946e0800000000000000
+      internalID: -1852717787194792838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 310
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229ff6045b87f8510800000000000000
+      internalID: 1553593116331604258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 306
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77907642d16c54960800000000000000
+      internalID: 7585686975842552183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 307
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f34d51d5d6220610800000000000000
+      internalID: 1585872718570275832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 269
+        width: 124
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85368e09ac90845b0800000000000000
+      internalID: -5384042588902235304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_33
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 271
+        width: 99
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757fe8b0a4a76e980800000000000000
+      internalID: -8509979987429886121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 267
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15e84de23d41e6d0800000000000000
+      internalID: -2963002198708394722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 235
+        width: 124
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f281eb08cfdbe5910800000000000000
+      internalID: 1828107390948349999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_36
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 225
+        width: 104
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edb1828cb9ea22b0800000000000000
+      internalID: -5608413390083867163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_37
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 236
+        width: 99
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1341222910cac4c0800000000000000
+      internalID: -4266386482800803042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 208
+        width: 95
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83de1991cee770b70800000000000000
+      internalID: 8865193944008486200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 209
+        width: 104
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1541929580b453e10800000000000000
+      internalID: 2176728494131188817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_40
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 208
+        width: 129
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85be1c8817c7fa10800000000000000
+      internalID: 1943240672477623692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 384
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f772485f04734f0800000000000000
+      internalID: -849138581507702970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 384
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7eeb68177acf2e90800000000000000
+      internalID: -7048192278951891330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 353
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c492905b46c4f2c0800000000000000
+      internalID: -4398672909257501504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 353
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983e59bb1457831b0800000000000000
+      internalID: -5676658405120023671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles - Beach_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5a2a383f0fccd10800000000000000
+      internalID: 2147356051025077744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tiles - Beach_0: 6076413228260066321
+      Tiles - Beach_1: -8760414019104906232
+      Tiles - Beach_10: -5776645988776212839
+      Tiles - Beach_11: -5672851611366820090
+      Tiles - Beach_12: -8447462895979141125
+      Tiles - Beach_13: -7015222922690729522
+      Tiles - Beach_14: -6299026873962501556
+      Tiles - Beach_15: 1920710850903050969
+      Tiles - Beach_16: -2777361850702704493
+      Tiles - Beach_17: -3789852896161181094
+      Tiles - Beach_18: -4381955223976199788
+      Tiles - Beach_19: 695705125589484753
+      Tiles - Beach_2: -199703279752650167
+      Tiles - Beach_20: 7326477714156127939
+      Tiles - Beach_21: -7549394689866668649
+      Tiles - Beach_22: 3859391607920326212
+      Tiles - Beach_23: -424217508041498078
+      Tiles - Beach_24: -3501785509968325481
+      Tiles - Beach_25: 1359486433145782569
+      Tiles - Beach_26: -7769807558063344058
+      Tiles - Beach_27: -1803679260030989609
+      Tiles - Beach_28: -1852717787194792838
+      Tiles - Beach_29: 1553593116331604258
+      Tiles - Beach_3: 126112893798212610
+      Tiles - Beach_30: 7585686975842552183
+      Tiles - Beach_31: 1585872718570275832
+      Tiles - Beach_32: -5384042588902235304
+      Tiles - Beach_33: -8509979987429886121
+      Tiles - Beach_34: -2963002198708394722
+      Tiles - Beach_35: 1828107390948349999
+      Tiles - Beach_36: -5608413390083867163
+      Tiles - Beach_37: -4266386482800803042
+      Tiles - Beach_38: 8865193944008486200
+      Tiles - Beach_39: 2176728494131188817
+      Tiles - Beach_4: -1812935463897792892
+      Tiles - Beach_40: 1943240672477623692
+      Tiles - Beach_41: -849138581507702970
+      Tiles - Beach_42: -7048192278951891330
+      Tiles - Beach_43: -4398672909257501504
+      Tiles - Beach_44: -5676658405120023671
+      Tiles - Beach_45: 2147356051025077744
+      Tiles - Beach_5: 1217951285103974887
+      Tiles - Beach_6: 5991722968487574478
+      Tiles - Beach_7: -7485330713374539600
+      Tiles - Beach_8: 5171094075307388699
+      Tiles - Beach_9: -2034267589234459672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
