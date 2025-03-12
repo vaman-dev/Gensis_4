@@ -12,6 +12,7 @@ public class Coin_Animatio : MonoBehaviour
 
     void Update()
     {
-        
-    }
+
+
+ }
 }
