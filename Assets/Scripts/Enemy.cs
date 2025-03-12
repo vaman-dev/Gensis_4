@@ -30,8 +30,8 @@ public class Enemy : MonoBehaviour
         if (distanceToPlayer < detectionRange)
         {
             transform.position += (Vector3)directionToPlayer * speed * Time.deltaTime;
-            enemyAnimator.SetBool("Moving", true);
-            enemyAnimator.SetBool("Idle", false);
+           
+            enemyAnimator.SetBool("Static", false);
             
             // Play horror audio only if it's not already playing
             if (!horrorAudio.isPlaying)
@@ -44,8 +44,8 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            enemyAnimator.SetBool("Moving", false);
-            enemyAnimator.SetBool("Idle", true);
+            
+            enemyAnimator.SetBool("Static", true);
             
             // Pause the horror audio instead of stopping it immediately
             if (horrorAudio.isPlaying)

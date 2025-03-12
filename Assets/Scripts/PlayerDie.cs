@@ -6,15 +6,14 @@ public class PlayerDeath : MonoBehaviour
 {
     public GameObject deathPanel; 
     
- void Start()
-{
-    Time.timeScale = 1f;
-    if (deathPanel != null)
+    void Start()
     {
-        deathPanel.SetActive(false); 
+        Time.timeScale = 1f;
+        if (deathPanel != null)
+        {
+            deathPanel.SetActive(false); 
+        }
     }
-}
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,7 +24,7 @@ public class PlayerDeath : MonoBehaviour
             {
                 deathPanel.SetActive(true); 
                 
-                 Time.timeScale = 0f; 
+                Time.timeScale = 0f; 
                 
                 AudioListener.pause = true;
             }
@@ -35,7 +34,21 @@ public class PlayerDeath : MonoBehaviour
     public void RestartGame()
     {
         AudioListener.pause = false; // Unpause sound when restarting
-         Time.timeScale = 1f; // Resume the game
+        Time.timeScale = 1f; // Resume the game
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("FireBall"))
+        {
+            Debug.Log("Player collided with Ball");
+            if (deathPanel != null)
+            {
+                deathPanel.SetActive(true);
+                Time.timeScale = 0f;
+                AudioListener.pause = true;
+            }
+        }
     }
 }
