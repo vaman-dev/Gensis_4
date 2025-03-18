@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
         {
             transform.position += (Vector3)directionToPlayer * speed * Time.deltaTime;
            
-            enemyAnimator.SetBool("Static", false);
+            enemyAnimator.SetBool("Idle", false);
             
             // Play horror audio only if it's not already playing
             if (!horrorAudio.isPlaying)
