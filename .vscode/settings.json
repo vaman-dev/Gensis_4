@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Gensis_4.sln"
+    "dotnet.defaultSolution": "Gensis_4-bhup.sln"
 }
