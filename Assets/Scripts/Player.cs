@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); 
             rb.AddTorque(torqueForce * -Mathf.Sign(rb.linearVelocity.x)); // Adding torque for rotation control
-            animator.SetTrigger("Jump");
+           
         }
     }
 
