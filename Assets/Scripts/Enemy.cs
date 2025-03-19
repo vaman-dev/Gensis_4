@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
         else
         {
             
-            enemyAnimator.SetBool("Static", true);
+            enemyAnimator.SetBool("Idle", true);
             
             // Pause the horror audio instead of stopping it immediately
             if (horrorAudio.isPlaying)
