@@ -64,10 +64,9 @@ GameObject:
   - component: {fileID: 3834453577058511691}
   - component: {fileID: 7948954539456241752}
   - component: {fileID: 5479528249616112912}
-  - component: {fileID: 3119501333080949438}
   - component: {fileID: 1658934559702294055}
-  - component: {fileID: 6972839742978217222}
   - component: {fileID: 1183238371915131765}
+  - component: {fileID: 4053868282179375732}
   m_Layer: 0
   m_Name: FIre_Ball
   m_TagString: FireBall
@@ -232,22 +231,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.000000038715555, y: 0.000053268886}
   m_Size: {x: 0.32126176, y: 0.4065162}
   m_Direction: 0
---- !u!114 &3119501333080949438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1242687717444462049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29a62d9700c1af14289d277b781d1138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  speed: 19
-  detectionRange: 4
-  horrorAudio: {fileID: 1658934559702294055}
 --- !u!82 &1658934559702294055
 AudioSource:
   m_ObjectHideFlags: 0
@@ -255,12 +238,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242687717444462049}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: be07d2891269143488b2bb066eabfa64, type: 3}
   m_Resource: {fileID: 8300000, guid: be07d2891269143488b2bb066eabfa64, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -345,18 +328,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6972839742978217222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1242687717444462049}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7367c738750db942b5c0eecb47377b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1183238371915131765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,6 +340,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c1124cf7814034fb5de24d4f8838a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4053868282179375732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242687717444462049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d59f123b0bf9b47b482fd1362090ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  speed: 19
+  detectionRange: 5
+  horrorAudio: {fileID: 1658934559702294055}
 --- !u!1 &4792895612674108476
 GameObject:
   m_ObjectHideFlags: 0

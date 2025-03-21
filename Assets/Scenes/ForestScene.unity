@@ -1919,6 +1919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FIre_Ball (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4053868282179375732, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1096720288}
     - target: {fileID: 4318805125428596006, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 162.62
@@ -9642,6 +9646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FIre_Ball (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4053868282179375732, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1096720288}
     - target: {fileID: 4318805125428596006, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 150.48
@@ -14146,13 +14154,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: FIre_Ball (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1658934559702294055, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658934559702294055, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: be07d2891269143488b2bb066eabfa64, type: 3}
+    - target: {fileID: 1658934559702294055, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: be07d2891269143488b2bb066eabfa64, type: 3}
+    - target: {fileID: 1658934559702294055, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053868282179375732, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: speed
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053868282179375732, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1096720288}
+    - target: {fileID: 4053868282179375732, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: detectionRange
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4318805125428596006, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -108.16
+      value: -108.2
       objectReference: {fileID: 0}
     - target: {fileID: 4318805125428596006, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -60.16
+      value: -60.54
       objectReference: {fileID: 0}
     - target: {fileID: 4318805125428596006, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15782,6 +15818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FIre_Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 4053868282179375732, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1096720288}
     - target: {fileID: 4318805125428596006, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 88.47
@@ -22017,6 +22057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FIre_Ball (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4053868282179375732, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1096720288}
     - target: {fileID: 4318805125428596006, guid: 39ed5041ef90de04bba9e4e3852853fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 86.64

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  playerIsInRegion: 3.94
+  playerIsInRegion: 5
   bulletPrefab: {fileID: 7446434541580658178, guid: 1442e572e3045d44fbf505cc7df7114e, type: 3}
   firePoint: {fileID: 5346125524255974843}
   bulletSpeed: 11
