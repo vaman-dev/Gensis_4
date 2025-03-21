@@ -11,6 +11,8 @@ TagManager:
   - Coin
   - Checkpoint
   - FireBall
+  - platform
+  - Umbrella
   layers:
   - Default
   - TransparentFX

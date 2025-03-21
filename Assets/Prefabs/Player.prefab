@@ -203,6 +203,8 @@ GameObject:
   - component: {fileID: 366201200185235272}
   - component: {fileID: 7454473919312753791}
   - component: {fileID: 5475470925602874255}
+  - component: {fileID: 9145871076516190029}
+  - component: {fileID: 4985932325982621145}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -802,3 +804,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathPanel: {fileID: 0}
+--- !u!114 &9145871076516190029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490845328364044007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7367c738750db942b5c0eecb47377b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4985932325982621145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490845328364044007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f495169c2d2b44daa4e16bdc059914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reducedGravityScale: 4
+  originalGravityScale: 9.8
+  groundLayerName: Ground
+  groundCheckRadius: 1.45
