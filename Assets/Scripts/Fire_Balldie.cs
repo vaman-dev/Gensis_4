@@ -7,8 +7,9 @@ public class Fire_Balldie : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            // Destroy this game object
+            
             Destroy(gameObject);
         }
     }
+    
 }
