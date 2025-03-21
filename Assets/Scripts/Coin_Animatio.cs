@@ -7,7 +7,7 @@ public class Coin_Animatio : MonoBehaviour
 
     void Start()
     {
-        animator.SetBool("Acitve", true);
+        animator.SetBool("Active", true);
     }
 
     void Update()
