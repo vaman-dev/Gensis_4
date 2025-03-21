@@ -7,6 +7,8 @@ public class CoinCollector : MonoBehaviour
     public TextMeshProUGUI coinText; 
     private int collectedCoins = 0;
 
+      [SerializeField]  private AudioSource coinPick;
+
     void Start()
     {
         UpdateCoinUI();
@@ -18,7 +20,8 @@ public class CoinCollector : MonoBehaviour
         if (other.CompareTag("Coin")) 
         {
             Debug.Log("Coin collected!");
-            collectedCoins++;
+            coinPick.Play();
+             collectedCoins++;
             Destroy(other.gameObject); 
             UpdateCoinUI();
         }
