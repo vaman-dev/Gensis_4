@@ -200,9 +200,9 @@ GameObject:
   - component: {fileID: 7600769348649588629}
   - component: {fileID: 7340186032834366025}
   - component: {fileID: 2590480135906476833}
-  - component: {fileID: 4125132648880408793}
   - component: {fileID: 366201200185235272}
   - component: {fileID: 7454473919312753791}
+  - component: {fileID: 5475470925602874255}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -595,19 +595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586c58754a4c2ff4baf44d202ac392ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4125132648880408793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8490845328364044007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d0690c7ad14e9949907a0a04f2559c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathPanel: {fileID: 0}
 --- !u!82 &366201200185235272
 AudioSource:
   m_ObjectHideFlags: 0
@@ -802,3 +789,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5475470925602874255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490845328364044007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0690c7ad14e9949907a0a04f2559c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathPanel: {fileID: 0}
