@@ -32,11 +32,12 @@ public class Fire_Ballmovement : MonoBehaviour
         {
             transform.position += (Vector3)directionToPlayer * speed * Time.deltaTime;
            
-            // enemyAnimator.SetBool("Idle", false);
+             enemyAnimator.SetBool("Static", false);
             
             // Play horror audio only if it's not already playing
-            if (!horrorAudio.isPlaying)
+            if (horrorAudio != null && !horrorAudio.isPlaying)
             {
+                Debug.Log("Play horror audio");
                 horrorAudio.Play();
             }
 
@@ -46,11 +47,12 @@ public class Fire_Ballmovement : MonoBehaviour
         else
         {
             
-            // enemyAnimator.SetBool("Idle", true);
+            enemyAnimator.SetBool("Static", true);
             
             // Pause the horror audio instead of stopping it immediately
-            if (horrorAudio.isPlaying)
+            if (horrorAudio != null && horrorAudio.isPlaying)
             {
+                Debug.Log("Pause horror audio");
                 horrorAudio.Pause();
             }
         }
