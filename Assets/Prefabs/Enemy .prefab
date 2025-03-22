@@ -245,7 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   speed: 9
-  detectionRange: 3
+  detectionRange: 5
   horrorAudio: {fileID: 6263702272184427615}
 --- !u!82 &6263702272184427615
 AudioSource:
