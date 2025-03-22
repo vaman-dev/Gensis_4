@@ -9709,7 +9709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c353dd391ae204ebed7c72ab7ba558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTimeLimit: 35
+  gameTimeLimit: 2
   timerText: {fileID: 66095525}
 --- !u!4 &716125599 stripped
 Transform:
