@@ -3,30 +3,36 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDeath : MonoBehaviour
 {
+    private bool isDead = false; 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("EnemyBullet"))
+        if (other.CompareTag("EnemyBullet") && !isDead)
         {
+            isDead = true;
             Debug.Log("Bullet hit");
-            Time.timeScale = 0f;
-            AudioListener.pause = true;
+            HandleDeath();
         }
-    }
-
-    public void RestartGame()
-    {
-        AudioListener.pause = false; // Unpause sound when restarting
-        Time.timeScale = 1f; // Resume the game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("FireBall"))
+        if (collision.gameObject.CompareTag("FireBall") && !isDead)
         {
+            isDead = true;
             Debug.Log("Player collided with Ball");
-            Time.timeScale = 0f;
-            AudioListener.pause = true;
+            HandleDeath();
         }
+    }
+
+    private void HandleDeath()
+    {
+        Time.timeScale = 0f;
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

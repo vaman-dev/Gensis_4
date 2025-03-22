@@ -17,6 +17,7 @@ public class CoinCollector2 : MonoBehaviour
         {
             coinCount++; // Increase coin count
             UpdateCoinText(); // Update the UI
+
             Destroy(collision.gameObject); // Destroy the coin
         }
     }

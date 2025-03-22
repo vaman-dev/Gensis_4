@@ -42,7 +42,7 @@ public class GameTimer : MonoBehaviour
     {
         if (timerText != null)
         {
-            timerText.text = "Time Remaining: " + timeRemaining.ToString("F2") + "s";
+            timerText.text = "TimeLeft: " + timeRemaining.ToString("F2") + "s";
         }
     }
 

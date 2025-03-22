@@ -16,6 +16,7 @@ public class PlayerInputSystem : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isGrounded;
+    private bool isJumping;
 
     private void Awake()
     {
@@ -41,7 +42,15 @@ public class PlayerInputSystem : MonoBehaviour
 
     private void CheckGrounded()
     {
+        bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        // Check for landing
+        if (!wasGrounded && isGrounded)
+        {
+            isJumping = false;
+            Debug.Log("🏃‍♂️ Player has landed.");
+        }
     }
 
     public void OnMove(InputValue value)
@@ -66,6 +75,8 @@ public class PlayerInputSystem : MonoBehaviour
     private void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        isJumping = true;
+        Debug.Log("🦘 Player has jumped!");
     }
 
     private void UpdateAnimationState()
@@ -73,6 +84,7 @@ public class PlayerInputSystem : MonoBehaviour
         bool isIdle = Mathf.Abs(rb.linearVelocity.x) < 0.1f;
         animator.SetBool("idle", isIdle);
         animator.SetBool("Run", !isIdle);
+        animator.SetBool("Jump", isJumping);
     }
 
     private void FlipSprite()
