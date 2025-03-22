@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSeconds(delayTime); 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void OnJump(InputValue value)
