@@ -4354,7 +4354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &420890432
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9731,7 +9731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ad950dcb7747d40bec225e160c9a94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToEnable: {fileID: 420890430}
+  objectToDisableOnReturn: {fileID: 977892727}
+  scriptToActivateOnReturn: {fileID: 0}
 --- !u!1 &984580333
 GameObject:
   m_ObjectHideFlags: 0
@@ -14138,6 +14139,7 @@ MonoBehaviour:
   firePoint: {fileID: 1114372601}
   bulletSpeed: 20
   fireDelay: 0.5
+  fireSound: {fileID: 1405561478}
 --- !u!1 &1416327144
 GameObject:
   m_ObjectHideFlags: 0
