@@ -13,6 +13,7 @@ TagManager:
   - FireBall
   - platform
   - Umbrella
+  - LevelTrigger
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Bullet
   - Cave
   - Confiner
-  - 
+  - Level Jumper
   - 
   - 
   - 
