@@ -15,6 +15,7 @@ TagManager:
   - Umbrella
   - LevelTrigger
   - Gate1
+  - Ground
   layers:
   - Default
   - TransparentFX

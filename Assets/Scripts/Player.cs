@@ -1,161 +1,134 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
-using System.Collections;
 
-public class Player : MonoBehaviour
+public class BasicPlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
-    public float jumpForce = 7f;
+    public float jumpForce = 10f;
     public float torqueForce = 5f;
-    public float delayTime = 2f;
-
-    [Header("Audio")]
-    public AudioSource runAudio; // Running audio source
 
     [Header("References")]
-    public Rigidbody2D rb;
-    public Animator animator;
-    public BoxCollider2D feetCollider;
-    public SpriteRenderer spriteRenderer;
+    public Transform groundCheck;
+    public float groundCheckRadius = 0.2f;
+    public LayerMask groundLayer;
+    public GameObject projectilePrefab;
+    public Transform firePoint;
 
-    private Vector2 move;
-    private bool isAlive = true;
+    private Rigidbody2D rb;
+    private Vector2 moveInput;
+    private bool isGrounded;
+    private bool isJumping;
+    private Animator animator;
 
-    private void Start()
+    private void Awake()
     {
-        // Cache component references
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        feetCollider = GetComponent<BoxCollider2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
 
-        // Validate component assignments
         if (rb == null) Debug.LogError("❌ Rigidbody2D is missing!");
-        if (feetCollider == null) Debug.LogError("❌ BoxCollider2D is missing!");
         if (animator == null) Debug.LogError("❌ Animator is missing!");
-        if (spriteRenderer == null) Debug.LogError("❌ SpriteRenderer is missing!");
-        if (runAudio == null) Debug.LogWarning("⚠️ Run audio source not assigned.");
+
+        Debug.Log("PlayerMovement script initialized.");
     }
 
     private void Update()
     {
-        if (isAlive)
+        CheckGrounded();
+        UpdateAnimationState();
+    }
+
+    private void FixedUpdate()
+    {
+        Move();
+    }
+
+    private void CheckGrounded()
+    {
+        bool wasGrounded = isGrounded;
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        if (isGrounded && !wasGrounded)
         {
-            Run();
-            FlipSprite();
-            ApplyTorque();
-            Fire();
+            isJumping = false;
+            Debug.Log("Player has landed.");
         }
+
+        Debug.Log("IsGrounded: " + isGrounded);
     }
 
     public void OnMove(InputValue value)
     {
-        move = value.Get<Vector2>(); // Direct assignment
-    }
-
-    private void Run()
-    {
-        if (rb == null) return; // Safety check
-
-        rb.linearVelocity = new Vector2(move.x * moveSpeed, rb.linearVelocity.y);
-
-        bool isMoving = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
-        animator.SetBool("Moving", isMoving);
-        animator.SetBool("Idle", !isMoving);
-
-        // Play or stop run audio
-        if (runAudio != null)
-        {
-            if (isMoving && !runAudio.isPlaying)
-            {
-                runAudio.Play();
-            }
-            else if (!isMoving && runAudio.isPlaying)
-            {
-                runAudio.Stop();
-            }
-        }
+        moveInput = value.Get<Vector2>();
+        Debug.Log("Move Input: " + moveInput);
     }
 
     public void OnJump(InputValue value)
     {
-        if (!isAlive || rb == null || feetCollider == null)
+        if (value.isPressed && isGrounded)
         {
-            Debug.LogError("❌ Rigidbody or BoxCollider2D is missing!");
-            return;
+            Jump();
+            isJumping = true;
         }
-
-        if (!feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        else if (value.isPressed && !isGrounded)
         {
-            Debug.Log("⚠️ Player is not grounded.");
-            return;
+            Debug.Log("Attempted to jump while not grounded.");
         }
+    }
 
+    public void OnFire(InputValue value)
+    {
         if (value.isPressed)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            rb.AddTorque(torqueForce * -Mathf.Sign(rb.linearVelocity.x));
-            Debug.Log("🟢 Player jumped successfully.");
+            Fire();
+            Debug.Log("Fire input received.");
         }
     }
 
-    private void ApplyTorque()
+    private void Move()
     {
-        if (rb == null) return;
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            rb.AddTorque(torqueForce);
-        }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            rb.AddTorque(-torqueForce);
-        }
+        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+        Debug.Log("Velocity: " + rb.linearVelocity);
     }
 
-    private void FlipSprite()
+    private void Jump()
     {
-        if (spriteRenderer == null || rb == null) return;
-
-        if (Mathf.Abs(rb.linearVelocity.x) > 0.1f)
-        {
-            spriteRenderer.flipX = rb.linearVelocity.x < 0;
-        }
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        rb.AddTorque(torqueForce * -Mathf.Sign(rb.linearVelocity.x));
+        Debug.Log("Jumped with force: " + jumpForce);
     }
 
     private void Fire()
     {
-        if (Input.GetMouseButtonDown(0)) // Left Mouse Button
-        {
-            animator.SetTrigger("fire");
-            Debug.Log("🔥 Fire triggered.");
-        }
+        Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        Debug.Log("Fired projectile from: " + firePoint.position);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void UpdateAnimationState()
     {
-        if (other.CompareTag("Gate"))
+        if (isJumping)
         {
-            Debug.Log("🚪 You have reached the gate.");
-            StartCoroutine(LoadNextScene());
-        }
-    }
-
-    private IEnumerator LoadNextScene()
-    {
-        yield return new WaitForSeconds(delayTime);
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
-            Debug.Log($"🟢 Loading scene {nextSceneIndex}");
+            animator.SetBool("idle", false);
+            animator.SetBool("Run", false);
+            animator.SetTrigger("Jump");
+            Debug.Log("Animation: Jump");
         }
         else
         {
-            Debug.Log("❌ No more levels to load.");
+            bool isIdle = rb.linearVelocity.magnitude < 0.01f;
+            animator.SetBool("idle", isIdle);
+            animator.SetBool("Run", !isIdle);
+
+            Debug.Log(isIdle ? "Animation: Idle" : "Animation: Run");
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
 }

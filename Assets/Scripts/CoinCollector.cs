@@ -1,34 +1,23 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class CoinCollector : MonoBehaviour
 {
-    public TextMeshProUGUI coinText; 
-    private int collectedCoins = 0;
+    public TextMeshProUGUI coinText;
+    private int coinCount = 0;
 
-      [SerializeField]  private AudioSource coinPick;
-
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        UpdateCoinUI();
-        Debug.Log("Coin counter initialized.");
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Coin")) 
+        if (collision.gameObject.CompareTag("Coin"))
         {
-            Debug.Log("Coin collected!");
-            coinPick.Play();
-             collectedCoins++;
-            Destroy(other.gameObject); 
-            UpdateCoinUI();
+            coinCount++;
+            UpdateCoinText();
+            Destroy(collision.gameObject);
         }
     }
 
-    void UpdateCoinUI()
+    private void UpdateCoinText()
     {
-        coinText.text = "" + collectedCoins;
+        coinText.text = ":" + coinCount;
     }
 }
