@@ -12124,6 +12124,10 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 685135964}
+    - target: {fileID: 4985932325982621145, guid: f1a725d376a0f1b4fadb6565052ec3cc, type: 3}
+      propertyPath: groundCheckRadius
+      value: 1.53
+      objectReference: {fileID: 0}
     - target: {fileID: 5025556779233589406, guid: f1a725d376a0f1b4fadb6565052ec3cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -178.62
