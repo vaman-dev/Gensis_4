@@ -12,10 +12,14 @@ public class FireScript : MonoBehaviour
     public AudioSource fireSound;
 
     private float lastFireTime;
-    private bool facingRight = true;
+    private Vector3 mouseWorldPosition;
 
     private void Update()
     {
+        // Get the mouse position in world space
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPosition = new Vector3(mousePosition.x, mousePosition.y, 0f);
+
         // Fire when left mouse button is clicked with delay
         if (Input.GetMouseButtonDown(0) && Time.time >= lastFireTime + fireDelay)
         {
@@ -39,8 +43,8 @@ public class FireScript : MonoBehaviour
             fireSound.Play();
         }
 
-        // Direction based on player facing
-        Vector2 direction = facingRight ? Vector2.right : Vector2.left;
+        // Calculate direction towards mouse pointer
+        Vector2 direction = (mouseWorldPosition - firePoint.position).normalized;
 
         // Instantiate projectile and apply force
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
@@ -55,18 +59,18 @@ public class FireScript : MonoBehaviour
         Destroy(projectile, destroyAfterSeconds);
     }
 
-    public void Flip(bool isFacingRight)
-    {
-        facingRight = isFacingRight;
-    }
-
     private void OnDrawGizmos()
     {
-        // Draw a red circle at the fire point
-        if (firePoint != null)
+        // Draw a red circle where the mouse is pointing
+        Gizmos.color = pointerColor;
+        Gizmos.DrawSphere(mouseWorldPosition, 0.2f);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            Gizmos.color = pointerColor;
-            Gizmos.DrawSphere(firePoint.position, 0.2f);
+            Debug.Log("Bullet hit the player!");
         }
     }
 }

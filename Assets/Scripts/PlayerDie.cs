@@ -1,33 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class PlayerDeath : MonoBehaviour
 {
-    public GameObject deathPanel; 
-    
-    void Start()
-    {
-        Time.timeScale = 1f;
-        if (deathPanel != null)
-        {
-            deathPanel.SetActive(false); 
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("EnemyBullet"))
         {
             Debug.Log("Bullet hit");
-            if (deathPanel != null)
-            {
-                deathPanel.SetActive(true); 
-                
-                Time.timeScale = 0f; 
-                
-                AudioListener.pause = true;
-            }
+            Time.timeScale = 0f;
+            AudioListener.pause = true;
         }
     }
 
@@ -43,12 +25,8 @@ public class PlayerDeath : MonoBehaviour
         if (collision.gameObject.CompareTag("FireBall"))
         {
             Debug.Log("Player collided with Ball");
-            if (deathPanel != null)
-            {
-                deathPanel.SetActive(true);
-                Time.timeScale = 0f;
-                AudioListener.pause = true;
-            }
+            Time.timeScale = 0f;
+            AudioListener.pause = true;
         }
     }
 }
