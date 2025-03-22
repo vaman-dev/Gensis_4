@@ -83,7 +83,6 @@ public class Player : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); 
             rb.AddTorque(torqueForce * -Mathf.Sign(rb.linearVelocity.x)); // Adding torque for rotation control
-           
         }
     }
 
@@ -106,13 +105,12 @@ public class Player : MonoBehaviour
             spriteRenderer.flipX = rb.linearVelocity.x < 0;
         }
     }
-   void fire()
+
+    void fire()
     {
         if (Input.GetMouseButtonDown(0)) // Left Mouse Button
         {
             animator.SetTrigger("fire");
-
-           
         }
     }
 }
